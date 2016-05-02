@@ -1,4 +1,4 @@
-function nfft( y::Array{Float64,1}, v::Array{Float64,1} )
+function nfft( y::Array{Float64,1}, v::Vector )
 # A Taylor-based nonuniform fast Fourier transform.
 #
 #  y = nonuniform points that satisfy 
